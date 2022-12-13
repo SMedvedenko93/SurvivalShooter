@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e072cbd34e07e964a8dba2034d8d7959, type: 3}
+  m_Name: Configuration
+  m_EditorClassIdentifier: 
+  PlayerStartHealth: 80
+  PlayerStartArmor: 0
+  PlayerSpeed: 8
+  CaseHealth: {fileID: 4475879073764129613, guid: 14db09f297fa6d84fbb10fc31c7f8cc0,
+    type: 3}
+  CaseWeapon: {fileID: 4283746978941854312, guid: 1fe04b6b3a96e1042962b9f22fb6f642,
+    type: 3}
+  CaseArmor: {fileID: 4823323267598182878, guid: de947621d2ea8fb4680a1e4a4e6ddcf8,
+    type: 3}
+  CaseSpawnInterval: 10
+  CaseSpawnPosition:
+  - {x: -23, y: 1, z: 30}
+  - {x: -12, y: 1, z: 22}
+  - {x: 11, y: 1, z: 22}
+  - {x: 22, y: 1, z: 22}
+  - {x: 22, y: 1, z: 33}
+  - {x: 24, y: 1, z: -5}
+  - {x: 15, y: 1, z: -4}
+  - {x: -23, y: 1, z: -5}
+  - {x: -22, y: 1, z: -15}
+  - {x: -13, y: 1, z: -7}
+  - {x: 19, y: 1, z: -15}
+  - {x: 17, y: 1, z: -47}
+  - {x: -15, y: 1, z: 30}
+  ProjectilePrefab: {fileID: 708546004021243333, guid: 4d207709302dc594d9118261d554709e,
+    type: 3}
+  ProjectileSpeed: 100
+  ProjectileTimeLive: 0.3
+  weaponMeleeDamage: 50
+  weaponRangeDamage: 25
+  weaponRange: 20
+  weaponMelleeRange: 2
+  fireRate: 0.6
+  weaponMelleDelayHit: 0.26
+  currentInMagazine: 8
+  maxInMagazine: 8
+  totalAmmo: 64
+  EnemyPrefab: {fileID: 8005117613121893384, guid: 9850ba3992f8c9540baa6ba6879c91b0,
+    type: 3}
+  EnemySpawnInterval: 600
+  EnemyDamage: 5
+  EnemySpeedWalk: 0.3
+  EnemyStartHealth: 150
+  EnemyAttackDistance: 2
+  enemyAttackDelayHit: 0.6
+  EnemyAttackRate: 1.5
+  EnemyFollowDistance: 30
+  EnemySpeedUpFollow: 20
+  EnemyScannerRadius: 12
+  EnemyScannerAngle: 120
+  EnemySpawnPosition:
+  - {x: -8, y: 0, z: -55}
+  - {x: -20, y: 0.2, z: -9}
+  - {x: -14, y: 0.2, z: 19}
+  - {x: 19, y: 0.2, z: -7}
+  - {x: -46, y: 0, z: 38}
+  - {x: 44, y: 0, z: -62}
+  - {x: 8, y: 0.2, z: 15}
+  EnemyMoveStartPosition:
+  - {x: -2, y: 0, z: 42}
+  - {x: 35, y: 0, z: -70}
+  - {x: -37, y: 0, z: -15}
+  EnemyMoveMiddlePosition:
+  - {x: -36, y: 0, z: 42}
+  - {x: 33, y: 0, z: -55}
+  - {x: -37, y: 0, z: -29}
+  EnemyMoveEndPosition:
+  - {x: -36, y: 0, z: 12}
+  - {x: -10, y: 0, z: -55}
+  - {x: -6, y: 0, z: -35}
